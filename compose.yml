@@ -1,0 +1,8 @@
+services:
+  web:
+    container_name: isit300-3-stake
+    image: nginx
+    ports: 
+      - 8081:80
+    volumes:
+      - ./web:/usr/share/nginx/html

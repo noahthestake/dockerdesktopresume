@@ -1,0 +1,8 @@
+{
+    "name": "Resume development container",
+    "dockerComposeFile": "../compose.yml",
+    "service": "web",
+    "workspaceFolder": "/usr/share/nginx/html",
+    "shutdownAction": "stopCompose",
+    "forwardPorts": [8081]
+}
